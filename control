@@ -1,8 +1,8 @@
 Package: com.aronsz26.notifications14
 Name: Notifications14
-Version: 0.1
-Architecture: iphoneos-arm64
-Description: iOS 14's notifications on iOS 15 (test).
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Brings back the iOS 14 notification design on iOS 15.
 Maintainer: aronsz26
 Author: aronsz26
 Section: Tweaks
