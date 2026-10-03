@@ -28,8 +28,8 @@ Problems on your device? Please [open an issue](../../issues) with your model, i
 
 Download the right `.deb` from the [latest release](../../releases/latest) and open it with Sileo, Zebra or Filza, then respring:
 
-- **Rootless** (Dopamine, palera1n rootless): `…_iphoneos-arm64.deb`
-- **Rootful** (palera1n rootful, checkra1n and other rootful jailbreaks): `…_iphoneos-arm.deb`
+- **Rootless** (Dopamine, palera1n rootless): `Notifications14_1.0_rootless.deb`
+- **Rootful** (palera1n rootful, checkra1n and other rootful jailbreaks): `Notifications14_1.0_rootful.deb`
 
 Not sure which one you have? If your jailbreak keeps its files in `/var/jb`, it's rootless.
 
