@@ -6,4 +6,4 @@ Description: Brings back the iOS 14 notification design on iOS 15.
 Maintainer: aronsz26
 Author: aronsz26
 Section: Tweaks
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)

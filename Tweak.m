@@ -16,8 +16,16 @@ static bool N14FeatureEnabled(const char *domain, const char *feature) {
     return N14FeatureEnabledOrig(domain, feature);
 }
 
+// Settings › Notifications14 › Enabled (on unless turned off); read when SpringBoard starts.
+static BOOL N14Enabled(void) {
+    NSDictionary *prefs = [NSDictionary dictionaryWithContentsOfFile:@"/var/mobile/Library/Preferences/com.aronsz26.notifications14.plist"];
+    id enabled = prefs[@"enabled"];
+    return enabled ? [enabled boolValue] : YES;
+}
+
 __attribute__((constructor)) static void N14Init(void) {
     if ([NSProcessInfo processInfo].operatingSystemVersion.majorVersion != 15) return;
+    if (!N14Enabled()) return;
     void *featureEnabled = dlsym(RTLD_DEFAULT, "_os_feature_enabled_impl");
     if (featureEnabled) MSHookFunction(featureEnabled, (void *)N14FeatureEnabled, (void **)&N14FeatureEnabledOrig);
 }

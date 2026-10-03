@@ -17,3 +17,5 @@ Notifications14_FRAMEWORKS = Foundation
 Notifications14_LIBRARIES = substrate
 
 include $(THEOS_MAKE_PATH)/tweak.mk
+SUBPROJECTS += notifications14prefs
+include $(THEOS_MAKE_PATH)/aggregate.mk
