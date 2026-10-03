@@ -19,16 +19,10 @@ iOS 15 still ships the old iOS 14 notification code; the redesign is switched on
 
 ## Compatibility
 
-| iOS | Works |
-|---|---|
-| 15.0 – 15.8 | ✅ (tested on 15.8.8) |
-| 16 and later | ❌ Apple removed the iOS 14 code; the tweak does nothing there |
+- **iOS 15.0 – 15.8**, rootless and rootful jailbreaks
+- **Not iOS 16 and later:** Apple removed the iOS 14 code there, so the tweak does nothing
 
-| Device | iOS | Jailbreak | Status |
-|---|---|---|---|
-| iPhone 7 | 15.8.8 | Dopamine (rootless) | ✅ tested |
-
-Tried it on another device or iOS 15 version? Please [open an issue](../../issues) with your model, iOS version and jailbreak so this table can grow.
+Problems on your device? Please [open an issue](../../issues) with your model, iOS version and jailbreak.
 
 ## Installation
 
