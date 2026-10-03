@@ -7,7 +7,7 @@ out = sys.argv[2]
 shot = lambda n, t: {"url": f"{base}/screenshots/{n}", "accessibilityText": t}
 details = [
     {"class": "DepictionScreenshotsView", "itemCornerRadius": 14, "itemSize": "{160, 284}", "screenshots": [
-        shot("lockscreen.jpg", "Lock screen"), shot("notification-center.jpg", "Notification Center")]},
+        shot("ios14.jpg", "With Notifications14: iOS 14 notifications"), shot("ios15.jpg", "Without: iOS 15 notifications")]},
     {"class": "DepictionMarkdownView", "useSpacing": True, "markdown":
         "**iOS 14's notifications, back on iOS 15.** iOS 15 still has the old notification design; "
         "Notifications14 switches it back on. No system files are changed."},

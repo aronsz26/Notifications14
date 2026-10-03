@@ -4,13 +4,12 @@ Brings back the **iOS 14 notification design on iOS 15**.
 
 iOS 15 still ships the old iOS 14 notification code; the redesign is switched on by one of Apple's feature flags (`Kettle` → `FeatureComplete`). Notifications14 turns that flag off for SpringBoard only. No system files are changed: uninstall the tweak and everything is back to iOS 15.
 
-<!-- Screenshots: add them to screenshots/ and uncomment.
 <p align="center">
-  <img src="screenshots/lockscreen.jpg" width="200" alt="Lock screen with iOS 14 notifications">
-  &nbsp;
-  <img src="screenshots/notification-center.jpg" width="200" alt="Notification Center with iOS 14 notifications">
+  <img src="screenshots/ios14.jpg" width="250" alt="Lock screen with Notifications14: iOS 14 notifications and the Do Not Disturb card">
+  &nbsp;&nbsp;
+  <img src="screenshots/ios15.jpg" width="250" alt="The same notifications on iOS 15 without the tweak">
 </p>
--->
+<p align="center"><sub>With Notifications14 (iOS 14 style) · Without (iOS 15)</sub></p>
 
 ## What changes
 
