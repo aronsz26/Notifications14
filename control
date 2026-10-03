@@ -7,3 +7,5 @@ Maintainer: aronsz26
 Author: aronsz26
 Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+SileoDepiction: https://aronsz26.github.io/depictions/notifications14/depiction/sileo.json
+Icon: https://aronsz26.github.io/depictions/notifications14/depiction/icon.png
