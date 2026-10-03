@@ -27,7 +27,7 @@ iOS 15 still ships the old iOS 14 notification code; the redesign is switched on
 
 | Device | iOS | Jailbreak | Status |
 |---|---|---|---|
-| iPhone 7 | 15.8.8 | palera1n (rootless) | ✅ tested |
+| iPhone 7 | 15.8.8 | Dopamine (rootless) | ✅ tested |
 
 Tried it on another device or iOS 15 version? Please [open an issue](../../issues) with your model, iOS version and jailbreak so this table can grow.
 
